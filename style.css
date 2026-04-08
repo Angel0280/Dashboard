@@ -143,3 +143,24 @@ body{
     background-color: rgba(255, 255, 255, 0.1);
     transform: translateX(5px);
 }
+
+.main-content{
+    margin-left: 250px;
+    flex:1;
+    paddig: var (--spacing-lg);
+}
+
+.content-header{
+    margin-bottom: var(--spacing-lg);
+}
+
+.page-title{
+    font-size: 2rem;
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-xs);
+}
+
+.page-description{
+    color: var(--text-secondary);
+    font-size: 1rem;
+}
